@@ -1,100 +1,27 @@
-### Windows ###
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
+ target/
+!.mvn/wrapper/maven-wrapper.jar
 
+car-show-back/.idea
+car-show-back/*.iws
+car-show-back/*.iml
+car-show-back/target
 
-### Linux ###
-*~
-.directory
+car-show-front/node_module
+car-show-front/*.js
 
+car-show-front/system-config.js*
+!car-show-front/bs-config.js
+car-show-front/app/**/*.js
+car-show-front/app/**/*.map
+car-show-front/node_modules
+car-show-front/jspm_packages
+car-show-front/bower_components
+car-show-frontaot/*
+car-show-front/dist/*
+car-show-front/yarn.lock
 
-### OSX ###
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.Spotlight-V100
-.Trashes
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-
-
-### Java ###
-*.class
-.mtj.tmp/
-*.jar
-*.war
-*.ear
-*.rar
-hs_err_pid*
+*.DS_Store
 *.log
 
 
-### Eclipse ###
-.settings/
-.project
-.classpath
-infinitest.filters
-.prol	
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-.externalToolBuilders/
-*.launch
-.cproject
-.buildpath
-.target
-.texlipse
 
-
-### Intellij ###
-.idea/
-*.ipr
-*.iws
-*.iml
-out/
-.idea_modules/
-atlassian-ide-plugin.xml
-com_crashlytics_export_strings.xml
-
-
-### SCM ###
-.svn
-.CVS
-.hg*
-
-
-### Vagrant ###
-.vagrant
-
-
-### GIT ###
-.gitconfig

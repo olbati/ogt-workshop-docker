@@ -1,0 +1,12 @@
+<div class="grid grid-pad">
+  <div *ngFor="let car of cars" (click)="gotoDetail(car)" class="col-1-4">
+     <div class="module">
+          <img [src]="getLogoUrl(car)" alt="Avatar" style="width:50; height: 50px;">
+          <div class="container">
+            <h4><b>{{car.name}} </b></h4>
+            <p>{{car.year}}</p>
+          </div>
+    </div>
+  </div>
+</div>
+
