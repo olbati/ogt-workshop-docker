@@ -1,6 +1,5 @@
 package com.show.car;
 
-import com.show.car.domain.Car;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

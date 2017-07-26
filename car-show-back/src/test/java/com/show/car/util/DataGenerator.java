@@ -1,8 +1,6 @@
 package com.show.car.util;
 
-import com.show.car.domain.Car;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
+import com.show.car.domain.mongo.Car;
 import org.springframework.stereotype.Component;
 
 /**
@@ -22,7 +20,6 @@ public class DataGenerator {
         car.setAcceleration(22);
         car.setYear(1980);
         car.setOrigin("USA");
-        car.setLogo("logo.png");
         return car;
     }
 }

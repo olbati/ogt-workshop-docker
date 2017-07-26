@@ -1,3 +1,4 @@
+
  target/
 !.mvn/wrapper/maven-wrapper.jar
 
@@ -5,6 +6,7 @@ car-show-back/.idea
 car-show-back/*.iws
 car-show-back/*.iml
 car-show-back/target
+car-show-back/data
 
 car-show-front/node_module
 car-show-front/*.js
@@ -22,6 +24,3 @@ car-show-front/yarn.lock
 
 *.DS_Store
 *.log
-
-
-

@@ -1,13 +1,12 @@
 package com.show.car;
 
-import com.show.car.domain.Car;
+import com.show.car.domain.mongo.Car;
 import com.show.car.service.CarService;
 import com.show.car.util.DataGenerator;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureTestDatabase;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -36,8 +35,8 @@ public class CarShowApplicationTests {
 
     @Before
     public void setup() throws Exception {
-        given(this.carService.getCarDetail(1l))
-                .willReturn(dataGenerator.createCar());
+//        given(this.carService.getCarDetail(1l))
+//                .willReturn(dataGenerator.createCar());
     }
 
     @Test
